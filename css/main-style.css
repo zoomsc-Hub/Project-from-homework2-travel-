@@ -8,6 +8,7 @@ body {
     min-height: 100vh;
 }
 
+
 header,
 main,
 footer {
@@ -37,7 +38,7 @@ img {
 
 .flex-nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     height: 90px;
 }
@@ -45,33 +46,47 @@ img {
 .flex-nav-items {
     display: flex;
     list-style: none;
-    padding: 0;
+    padding: 10px 25px;
     margin: 0;
-    flex-grow: 1;
-    justify-content: space-between;
-
+    background-color: rgba(255, 255, 255, 0.05);
+    border: 2px solid rgba(224, 224, 224, 0.1);
+    border-radius: 50px;
+    box-shadow: 0 5px 30px rgba(255, 255, 255, 0.07);
+    backdrop-filter: blur(10px);
 }
 
 .nav-item-link {
-    padding: 10px;
-    transition: transform 2s ease;
-}
+    padding: 10px 20px;
 
-.nav-item-link:hover {
-    outline: 1px solid rgb(255, 138, 128, 0.6);
-    transform: scale(1.1);
-    border-radius: 20px;
-    transition: transform 2s;
-    transition: all 1s ease;
-    transition: border-radius 0s;
 
 }
+
+
 
 .flex-nav-items a {
     text-decoration: none;
     color: #E0E0E0;
-    transition: color 0.3s;
+    transition: color 0.4s ease;
+
 }
+
+.flex-nav-items a:after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #FF8A80;
+    transition: width 0.5s;
+    position: relative;
+    bottom: -5px;
+}
+
+.flex-nav-items a:hover::after {
+    width: 100%;
+    bottom: -5px;
+
+}
+
 
 .flex-nav-items a:hover {
     color: #FF8A80;
@@ -150,8 +165,4 @@ img {
 .flex-contacts a:hover {
     color: #FF8A80;
     transition: color 1s;
-}
-
-.arrow-right {
-    fill: rgb(237, 21, 21);
 }
