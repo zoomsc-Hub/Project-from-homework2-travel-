@@ -1,0 +1,63 @@
+body {
+    background-image: url(../images/about/background-about.jpg);
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+.hero-section {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #ffffff;
+}
+
+.main-section {
+
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    background-color: rgba(26, 26, 27, 0.45);
+
+}
+
+.human-img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 20%;
+}
+
+.section-text-content {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.section-text-acent {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.main-section-content {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0;
+
+}

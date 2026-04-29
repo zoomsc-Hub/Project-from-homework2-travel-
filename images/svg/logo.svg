@@ -1,0 +1,5 @@
+<svg width="120" height="40" viewBox="0 0 120 40" xmlns="http://www.w3.org/2000/svg">
+  <path d="M10 30 L25 10 L40 30 Z" fill="#E6A15C" />
+  <path d="M25 30 L35 18 L45 30 Z" fill="#CC8B45" />
+  <text x="50" y="28" font-family="Arial, sans-serif" font-weight="bold" font-size="18" fill="#333">TRIPS</text>
+</svg>

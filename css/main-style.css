@@ -1,0 +1,157 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #121213;
+    color: #E0E0E0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header,
+main,
+footer {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Container */
+.container {
+    max-width: 1360px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+/* Header */
+.header {
+    background-color: rgba(26, 26, 27, 0.9);
+}
+
+.flex-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+}
+
+.flex-nav-items {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    flex-grow: 1;
+    justify-content: space-between;
+
+}
+
+.nav-item-link {
+    padding: 10px;
+    transition: transform 2s ease;
+}
+
+.nav-item-link:hover {
+    outline: 1px solid rgb(255, 138, 128, 0.6);
+    transform: scale(1.1);
+    border-radius: 20px;
+    transition: transform 2s;
+    transition: all 1s ease;
+    transition: border-radius 0s;
+
+}
+
+.flex-nav-items a {
+    text-decoration: none;
+    color: #E0E0E0;
+    transition: color 0.3s;
+}
+
+.flex-nav-items a:hover {
+    color: #FF8A80;
+}
+
+/* Main layout */
+.main-section {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+}
+
+/* Footer */
+.background-footer {
+    background-color: rgba(26, 26, 27, 0.9);
+
+    width: 100%;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.footer-contacts ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-contacts a {
+    color: #E0E0E0;
+    text-decoration: none;
+}
+
+.footer-info a {
+    color: #FF8A80;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    max-width: 180px;
+
+}
+
+.footer-info a:hover {
+    color: #E0E0E0;
+    text-decoration: underline;
+    transition: color 2s;
+}
+
+.flex-contacts p {
+    padding-right: 10px;
+    margin: 0;
+}
+
+.flex-contacts {
+    display: flex;
+
+}
+
+.contacts-svg {
+    padding-right: 20px;
+}
+
+.contacts-svg:hover {
+    cursor: pointer;
+}
+
+
+
+.contacts-list li {
+    padding-bottom: 10px;
+}
+
+.flex-contacts a:hover {
+    color: #FF8A80;
+    transition: color 1s;
+}
+
+.arrow-right {
+    fill: rgb(237, 21, 21);
+}

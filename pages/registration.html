@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style-registration.css">
+    <link rel="stylesheet" href="../css/main-style.css">
+    <title>Регистрация</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="flex-nav">
+                <img src="../images/svg/logo.svg" alt="Логотип" width="100" height="100">
+                <ul class="flex-nav-items">
+                    <li><a href="../index.html">Главная</a></li>
+                    <li><a href="about.html">Рассказ о себе</a></li>
+                    <li><a href="articles.html">Статьи</a></li>
+                    <li><a href="catalog.html">Гайд путешественника</a></li>
+                    <li><a href="contacts.html">Контакты</a></li>
+                    <li><a href="gallery.html">Галерея</a></li>
+                    <li><a href="registration.html">Регистрация</a></li>
+                    <li><a href="page-nav.html">Страница с навигацией</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main-section">
+        <div class="container">
+            <section class="main-flex">
+                <h1>Регистрация</h1>
+                <form action="https://tests.fomenko.top/echo/index.php" method="get">
+                    <fieldset>
+                        <legend>Личные данные</legend>
+
+                        <div class="backcall-content">
+                            <label for="name">Имя:</label>
+                            <input class="backcall-items" id="name" name="name" type="text" placeholder="Имя">
+                        </div>
+                        <div class="backcall-content">
+                            <label for="prename">Фамилия:</label>
+                            <input class="backcall-items" id="prename" name="prename" type="text" placeholder="Фамилия">
+                        </div>
+                        <div class="backcall-content">
+                            <label for="email">Email:</label>
+                            <input class="backcall-items" id="email" name="email" type="email" placeholder="Email">
+                        </div>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Пароль</legend>
+                        <div class="backcall-content">
+                            <label for="password">Пароль:</label>
+                            <input class="backcall-items" id="password" name="password" type="password"
+                                placeholder="Пароль">
+                        </div>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Пол и страна</legend>
+                        <div class="backcall-content">
+                            <span>Пол:</span>
+                            <input type="radio" id="male" name="gender" value="male">
+                            <label for="male">Мужской</label>
+                            <input type="radio" id="female" name="gender" value="female">
+                            <label for="female">Женский</label>
+                        </div>
+                        <div>
+                            <label for="country">Страна:</label>
+                            <select name="country" id="country">
+                                <option value="">Выберите страну</option>
+                                <option value="moldova">Молдова</option>
+                                <option value="ukraine">Украина</option>
+                                <option value="romania">Румыния</option>
+                            </select>
+                        </div>
+                    </fieldset>
+                    <div class="form-group">
+                        <button type="submit">Отправить</button>
+                        <button type="reset">Сбросить</button>
+                    </div>
+                </form>
+            </section>
+        </div>
+    </main>
+    <footer class="background-footer">
+        <div class="container">
+            <div class="footer-content">
+                <address class="footer-contacts">
+                    <p>Контакты:</p>
+                    <ul>
+                        <li>Email: <a href="mailto:travel@example.com">travel@example.com</a></li>
+                        <li>Телефон: <a href="tel:+37300000000">+373 00 000 000</a></li>
+                    </ul>
+                </address>
+                <div class="footer-info">
+                    <p>&copy; 2026 Путешествуй вместе со мной</p>
+                    <p><a href="contacts.html#call">Связаться со мной</a></p>
+                    <p>Все права защищены</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
