@@ -12,8 +12,8 @@ body {
 header,
 main,
 footer {
-    padding-left: 20px;
-    padding-right: 20px;
+
+    width: 100%;
 }
 
 img {
@@ -93,6 +93,10 @@ img {
 }
 
 /* Main layout */
+.main {
+    width: 100%;
+}
+
 .main-section {
     flex-grow: 1;
     display: flex;
@@ -165,7 +169,6 @@ img {
 
 .background-footer {
     background-color: rgba(26, 26, 27, 0.9);
-
     width: 100%;
 }
 
