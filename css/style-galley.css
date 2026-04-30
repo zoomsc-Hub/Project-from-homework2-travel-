@@ -25,7 +25,17 @@ body {
     gap: 20px;
 }
 
+.gallery-items {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+
+
+}
+
 .gallery-link {
-    text-decoration: none;
-    color: #FF8A80;
+    max-width: 400px;
+    width: 100%;
+
+
 }

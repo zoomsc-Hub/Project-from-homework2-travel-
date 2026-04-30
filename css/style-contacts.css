@@ -22,18 +22,27 @@ body {
     background-color: #1A1A1B;
     border-radius: 10px;
     text-align: center;
+    box-sizing: border-box;
+    color: #fff;
 }
 
 .backcall-content {
     margin-bottom: 15px;
     text-align: left;
+    display: flex;
+    flex-direction: column;
 
+}
+
+.backcall-content label {
+    margin-bottom: 5px;
+    font-size: 14px;
 }
 
 .backcall-items {
     width: 100%;
     padding: 10px;
-
-
-
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
 }
